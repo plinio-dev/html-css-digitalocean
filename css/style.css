@@ -1,0 +1,70 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* typo */
+h1 {
+  font-size: bold;
+}
+
+* li {
+  color:color: #056aff;
+}
+/* mix */
+ul {
+  margin-bottom: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn {
+  font-size: inherit;
+  vertical-align: inherit;
+}
+
+.bg_grey {
+  background-color: #fafafa;
+}
+/* bottoni */
+.btn__sign {
+  border: 1px solid #056aff;
+  border-radius: 5px;
+  padding: 5px 13px;
+}
+
+/* header */
+
+/* header-top */
+.header-top {
+  height: 70px;
+  background-color: white;
+}
+
+.header-top {
+  line-height: 70px;
+}
+.main-nav, .secondary-nav {
+  line-height: 83px;
+}
+
+.main-nav, .secondary-nav {
+  font-size: 16px;
+}
+.logo img {
+  height: 35px;
+}
+
+.list-inline i {
+  margin-left: 5px;
+}
+.main-nav a, .secondary-nav a {
+  color: #031b4e;
+}
+.btn.btn__sign {
+  color: #056aff;
+}
+.list-inline li {
+  padding-left: 10px;
+}
