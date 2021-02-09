@@ -16,6 +16,11 @@ h2 {
   font-size: 30px;
   line-height: 36px;
 }
+h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #77829d;
+}
 .hero_txt {
   color: white;
   font-size: 24px;
@@ -50,7 +55,7 @@ a:hover {
 }
 
 .bg_grey {
-  background-color: #fafafa;
+  background-color: #f3f5f9;
 }
 /* bottoni */
 .btn__sign {
@@ -139,11 +144,29 @@ a:hover {
 form button img {
   float: left;
   height: 20px;
-  /* width: 20px; */
   padding-right: 30%;
-  /* position: absolute;
-  left: 51px;
-  bottom: 78px; */
+}
+/* /hero */
+/* /header */
+
+/* corpo */
+/* sponsors */
+#sponsors {
+  padding: 30px 0;
+}
+.sponsors_list {
+  height: auto;
+  max-width: 1170px;
+}
+.sponsors_list img {
+  margin: 50px 26px;
+}
+.container a {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: normal;
+  color: #056aff ;
 }
 
 /* responsive */
