@@ -3,14 +3,39 @@ body {
 }
 
 /* typo */
-h1 {
-  font-size: bold;
+.bld_700 {
+  margin: 0;
+  color: white;
+  font-size: 58px;
+  font-weight: 700;
 }
-
-* li {
-  color:color: #056aff;
+h2 {
+  margin: 10px 0;
+  color: #031b4e;
+  font-weight: bolder;
+  font-size: 30px;
+  line-height: 36px;
+}
+.hero_txt {
+  color: white;
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 36px;
+  padding-top: 25px;
+  padding-right: 80px;
+}
+.disclamer {
+  color: #031b4e;
+  margin: 15px 0;
+}
+.disclamer a {
+  text-decoration: underline;
 }
 /* mix */
+* li {
+  color: #056aff;
+}
+
 ul {
   margin-bottom: 0;
 }
@@ -33,18 +58,40 @@ a:hover {
   border-radius: 5px;
   padding: 5px 13px;
 }
+.menu-mobile {
+  font-size: 18px;
+  background-color: transparent;
+}
+.btn_account {
+  background-color: #056aff ;
+}
+.btn_account:hover {
+  background-color: #1633ff;
+}
+.btn_google {
+  position: relative;
+  background-color: transparent;
+  box-shadow: 2px 2px #6968682b;
+  border: none;
+  font-weight: bold;
+  color: #626262;
+}
+
+/* bottoni */
 
 /* header */
-
 /* header-top */
 .header-top {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
   height: 70px;
   background-color: white;
+  line-height: 70px;
+  width: 100%;
 }
 
-.header-top {
-  line-height: 70px;
-}
 .main-nav, .secondary-nav {
   line-height: 83px;
 }
@@ -67,4 +114,39 @@ a:hover {
 }
 .list-inline li {
   padding-left: 10px;
+}
+
+/* hero */
+.hero {
+  padding: 100px 0;
+  margin-top: 70px;
+  width: 100%;
+  background-image: url(../img/bg-hero.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.hero_box {
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+.hero_box span {
+  color: #056aff;
+}
+form > img {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  left: 51px;
+  bottom: 78px;
+}
+
+/* responsive */
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 992px) {
+
 }
