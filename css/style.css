@@ -193,7 +193,8 @@ form button img {
 }
 .sponsors_list {
   height: auto;
-  max-width: 1170px;
+  width: calc((100% / 6) - 4px);
+  display: inline;
 }
 .sponsors_list img {
   margin: 50px 26px;
@@ -261,6 +262,9 @@ form button img {
   background-color: #031b4e;
   padding-bottom: 80px;
 }
+.service_list {
+  padding-top: 30px;
+}
 .service_list li {
   padding-top: 10px;
   padding-left: 0;
@@ -281,10 +285,13 @@ form button img {
   font-size: 13px;
   text-align: left;
   margin-left: 0px;
-  width: 350px;
+  padding-right: 200px;
+  /* width: 350px; */
   display: inline-block;
 }
 .service_list a {
+  text-align: center;
+  width: 95px;
   color: #00d7d2;
   font-size: 12px;
 }
@@ -340,7 +347,10 @@ form button img {
   }
   .sponsors_list img {
     margin: 50px 7px;
-    width: 50%;
+    width: 40%;
+  }
+  .service_list p {
+    padding-right: 10px;
   }
 
 }
