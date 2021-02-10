@@ -54,6 +54,13 @@ h4 {
   font-weight: normal;
   line-height: 30px;
 }
+.title_section {
+  font-weight: 700;
+  font-size: 35px;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+/* /typo */
 /* mix */
 * li {
   color: #056aff;
@@ -192,16 +199,11 @@ form button img {
   vertical-align: middle;
   font-size: 16px;
   font-weight: normal;
-  color: #056aff ;
+  color: #056aff;
 }
 /* /sponsors */
 
 /* deploy */
-.dply_title {
-  font-weight: 700;
-  font-size: 35px;
-  padding-top: 70px;
-}
 .dply_list a {
   color: #5c6a88;
   text-decoration: none;
@@ -212,6 +214,32 @@ form button img {
 .dply_list {
   text-align: left;
 }
+/* /deploy */
+/* designed */
+.slider > i {
+  font-size: 35px;
+}
+.slider img, .slider i {
+  display: inline-block;
+}
+
+.slider > img {
+  padding: 20px 30px;
+  height: auto;
+  width: 60%;
+}
+.slider .fa-chevron-right {
+  color: #031b4e;
+}
+.p_card {
+  font-size: 16px;
+  color: #031b4e;
+}
+.bullets i {
+  color: #056aff;
+  font-size: 12px;
+}
+/* /designed */
 
 
 
@@ -244,6 +272,9 @@ form button img {
   form button img {
     padding-right: 38%;
   }
+  .slider > i {
+    display: none;
+  }
 }
 @media screen and (max-width: 492px) {
 
@@ -260,4 +291,5 @@ form button img {
     margin: 50px 7px;
     width: 50%;
   }
+
 }
