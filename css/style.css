@@ -61,6 +61,9 @@ h4 {
   padding-top: 70px;
   padding-bottom: 20px;
 }
+.white {
+  color: white;
+}
 /* /typo */
 /* mix */
 * li {
@@ -250,6 +253,43 @@ form button img {
   padding-bottom: 80px;
 }
 /* /features */
+/* service */
+#service {
+  background-image: url(../img/bg-map.svg);
+  background-position: center;
+  background-size: cover;
+  background-color: #031b4e;
+  padding-bottom: 80px;
+}
+.service_list li {
+  padding-top: 10px;
+  padding-left: 0;
+  border-bottom: 1px solid #5c6a88;
+}
+.service_list span {
+  text-align: left;
+  font-size: 13px;
+  width: 80px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  color: white;
+  display: inline-block;
+}
+.service_list p {
+  color: #5c6a88;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: left;
+  margin-left: 0px;
+  width: 350px;
+  display: inline-block;
+}
+.service_list a {
+  color: #00d7d2;
+  font-size: 12px;
+}
+
+/* /service */
 
 
 
