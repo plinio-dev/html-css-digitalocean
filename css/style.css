@@ -21,6 +21,12 @@ h3 {
   text-transform: uppercase;
   color: #77829d;
 }
+h4 {
+  font-size: 20px;
+  color: #031b4e;
+  font-weight: bold;
+  padding: 10px 0;
+}
 .hero_txt {
   color: white;
   font-size: 24px;
@@ -36,12 +42,25 @@ h3 {
 .disclamer a {
   text-decoration: underline;
 }
+.p_section {
+  font-size: 20px;
+  color: #5c6a88;
+  line-height: 30px;
+  padding-bottom: 70px;
+}
+.p_card {
+  font-size: 18px;
+  color: #5c6a88;
+  font-weight: normal;
+  line-height: 30px;
+}
 /* mix */
 * li {
   color: #056aff;
 }
 
 ul {
+  list-style: none;
   margin-bottom: 0;
 }
 
@@ -57,6 +76,13 @@ a:hover {
 .bg_grey {
   background-color: #f3f5f9;
 }
+.txt_left {
+  text-align: left;
+}
+.pd_b_card {
+  padding-bottom: 30px;
+}
+/* /mix */
 /* bottoni */
 .btn__sign {
   border: 1px solid #056aff;
@@ -168,12 +194,36 @@ form button img {
   font-weight: normal;
   color: #056aff ;
 }
+/* /sponsors */
+
+/* deploy */
+.dply_title {
+  font-weight: 700;
+  font-size: 35px;
+  padding-top: 70px;
+}
+.dply_list a {
+  color: #5c6a88;
+  text-decoration: none;
+  padding: 15px 0px 15px 15px;
+  font-size: 20px;
+  border-left: 2px solid #cccccc;
+}
+.dply_list {
+  text-align: left;
+}
+
+
 
 /* responsive */
 @media screen and (max-width: 1200px) {
   form button img {
     padding-right: 30%;
   }
+  .sponsors_list img {
+    margin: 50px 7px;
+  }
+
 }
 @media screen and (max-width: 1024px) {
   form button img {
@@ -184,6 +234,11 @@ form button img {
   form button img {
     padding-right: 25%;
   }
+  .sponsors_list img {
+    margin: 50px 7px;
+    width: 25%;
+  }
+
 }
 @media screen and (max-width: 768px) {
   form button img {
@@ -200,5 +255,9 @@ form button img {
   }
   .bld_700 {
     font-size: 45px;
+  }
+  .sponsors_list img {
+    margin: 50px 7px;
+    width: 50%;
   }
 }
