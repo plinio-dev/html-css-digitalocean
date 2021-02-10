@@ -27,6 +27,11 @@ h4 {
   font-weight: bold;
   padding: 10px 0;
 }
+h5 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #031b4e;
+}
 .hero_txt {
   color: white;
   font-size: 24px;
@@ -295,9 +300,32 @@ form button img {
   color: #00d7d2;
   font-size: 12px;
 }
-
 /* /service */
-
+/* dev */
+#dev {
+  padding-bottom: 80px;
+}
+.dev_box {
+  margin: 50px 20px 20px 20px;
+  padding: 60px 10px;
+  display: inline-block;
+  max-width: 60%;
+  vertical-align: middle;
+}
+.pd_15 {
+  padding-bottom: 15px;
+}
+.slider i {
+  vertical-align: middle;
+}
+.dev_box img {
+  width: 50%;
+  padding-bottom: 20px;
+}
+.dev_box:last-child {
+  color: #031b4e;
+}
+/* /dev */
 
 
 
@@ -352,5 +380,7 @@ form button img {
   .service_list p {
     padding-right: 10px;
   }
-
+  .hero_box img {
+    width: 80%;
+  }
 }
