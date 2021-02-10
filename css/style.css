@@ -39,7 +39,8 @@ h4 {
   color: #031b4e;
   margin: 15px 0;
 }
-.disclamer a {
+.disclamer small a {
+  font-size: 12px;
   text-decoration: underline;
 }
 .p_section {
@@ -216,6 +217,9 @@ form button img {
 }
 /* /deploy */
 /* designed */
+#designed {
+  padding-bottom: 80px;
+}
 .slider > i {
   font-size: 35px;
 }
@@ -240,6 +244,13 @@ form button img {
   font-size: 12px;
 }
 /* /designed */
+
+/* features */
+#features {
+  padding-bottom: 80px;
+}
+/* /features */
+
 
 
 
