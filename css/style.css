@@ -92,6 +92,11 @@ a:hover {
 .bg_grey {
   background-color: #f3f5f9;
 }
+.bg_blue {
+  background-image: url(../img/bg-bottom.svg);
+  background-position: center;
+  background-size: cover;
+}
 .txt_left {
   text-align: left;
 }
@@ -124,6 +129,19 @@ a:hover {
   border: none;
   font-weight: bold;
   color: #626262;
+}
+.btn_create {
+  border: 1px solid #056aff;
+  color: #056aff;
+  background-color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.btn_create:hover {
+  color: #056aff;
+  background: rgba(225,225,225,0.9) !important;
+  transition: all 0.3s ease;
 }
 /* bottoni */
 
@@ -203,7 +221,7 @@ form button img {
 .sponsors_list img {
   margin: 50px 26px;
 }
-.container a {
+.container > .see {
   display: inline-block;
   vertical-align: middle;
   font-size: 16px;
@@ -325,6 +343,11 @@ form button img {
   color: #031b4e;
 }
 /* /dev */
+/* get-started */
+#get-started {
+  padding-bottom: 80px;
+}
+/* get-started */
 
 
 /* responsive */
