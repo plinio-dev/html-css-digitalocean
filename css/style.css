@@ -106,7 +106,7 @@ a:hover {
   text-align: left;
 }
 .pd_b_card {
-  padding-bottom: 30px;
+  padding: 30px;
 }
 /* /mix */
 /* bottoni */
@@ -114,6 +114,11 @@ a:hover {
   border: 1px solid #056aff;
   border-radius: 5px;
   padding: 5px 13px;
+}
+#sign:hover {
+  color: white;
+  background-color: #056aff;
+  transition: all 0.3s ease;
 }
 .menu-mobile {
   display: inline-block;
@@ -164,14 +169,14 @@ a:hover {
 }
 
 .main-nav, .secondary-nav {
-  line-height: 83px;
-}
-
-.main-nav, .secondary-nav {
+  line-height: 77px;
   font-size: 16px;
 }
+.main-nav a:hover, .secondary-nav a:hover {
+  color: #056aff;
+}
 .logo img {
-  height: 35px;
+  height: 30px;
 }
 
 .list-inline i {
@@ -241,21 +246,28 @@ form button img {
   text-decoration: none;
   padding: 15px 0px 15px 15px;
   font-size: 20px;
-  border-left: 2px solid #cccccc;
+
 }
+.dply_list li:first-child {
+  border-left: 2px solid #056aff;
+}
+
 .dply_list {
+  padding-left: 20px;
   text-align: left;
+}
+.dply_list li {
+  padding: 10px 0;
+    border-left: 2px solid #cccccc;
 }
 /* /deploy */
 /* designed */
 #designed {
   padding-bottom: 80px;
 }
-.slider > i {
+.slider  i {
   font-size: 35px;
-}
-.slider img, .slider i {
-  display: inline-block;
+  color: #6f7b97;
 }
 
 .slider > img {
@@ -492,7 +504,7 @@ form button img {
   /* form button img {
     padding-right: 38%;
   } */
-  .slider > i {
+  .slider > a .fas {
     display: none;
   }
 }
