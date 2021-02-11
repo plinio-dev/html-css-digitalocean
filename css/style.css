@@ -270,15 +270,15 @@ form button img {
   padding-top: 30px;
 }
 .service_list li {
+  width: 100%;
   padding-top: 10px;
   padding-left: 0;
-  border-bottom: 1px solid #5c6a88;
+  border-bottom: 1px solid #5c6a88
 }
 .service_list span {
   text-align: left;
   font-size: 13px;
-  width: 80px;
-  margin-left: 10px;
+  width: 14%;
   text-transform: uppercase;
   color: white;
   display: inline-block;
@@ -289,13 +289,13 @@ form button img {
   font-size: 13px;
   text-align: left;
   margin-left: 0px;
-  padding-right: 200px;
-  /* width: 350px; */
+  width: 56%;
   display: inline-block;
 }
 .service_list a {
-  text-align: center;
-  width: 95px;
+  display: inline-block;
+  text-align: right;
+  width: 30%;
   color: #00d7d2;
   font-size: 12px;
 }
@@ -325,7 +325,6 @@ form button img {
   color: #031b4e;
 }
 /* /dev */
-
 
 
 /* responsive */
@@ -376,9 +375,9 @@ form button img {
     margin: 50px 7px;
     width: 40%;
   }
-  .service_list p {
+  /* .service_list p {
     padding-right: 10px;
-  }
+  } */
   /* .hero_box img {
     width: 80%;
   } */
