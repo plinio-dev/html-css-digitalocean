@@ -78,6 +78,7 @@ h5 {
 ul {
   list-style: none;
   margin-bottom: 0;
+  padding: 0;
 }
 
 a:hover {
@@ -96,6 +97,9 @@ a:hover {
   background-image: url(../img/bg-bottom.svg);
   background-position: center;
   background-size: cover;
+}
+.bg_footer {
+  background-color: #031b4e;
 }
 .txt_left {
   text-align: left;
@@ -348,6 +352,46 @@ form button img {
   padding-bottom: 80px;
 }
 /* get-started */
+/* footer */
+#footer {
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+.logo_footer img {
+  padding-bottom: 15px;
+}
+.copyright {
+  color: #7a859d;
+  font-size: 16px;
+  font-weight: bold;
+}
+.lighter_gray {
+  color: #5a6887;
+}
+.social {
+  color: #808694;
+  line-height: 46px;
+  font-size: 22px;
+}
+.social:hover {
+  color: white;
+}
+.footer_list li:first-child {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+.footer_list li {
+  padding-bottom: 10px;
+}
+.footer_list li a {
+  font-size: 16px;
+  color: #808694;
+}
+.footer_list li a:hover {
+  color: white;
+}
+/* /footer */
 
 
 /* responsive */
