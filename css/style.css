@@ -421,6 +421,7 @@ form button img {
   display: inline-block;
   margin-right: 15px;
   vertical-align: middle;
+  filter: drop-shadow(0 0 1px black);
 }
 .sammy {
   position: relative;
@@ -446,6 +447,7 @@ form button img {
   border-radius: 5px;
   display: inline-block;
   vertical-align: middle;
+  filter: drop-shadow(0 0 1px black);
 }
 .sammy-box img {
   width: 100%;
@@ -473,6 +475,7 @@ form button img {
   text-align: center;
   line-height: 25px;
 }
+/* /bot */
 
 
 /* responsive */
