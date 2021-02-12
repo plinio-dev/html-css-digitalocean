@@ -3,6 +3,11 @@ body {
   position: relative;
 }
 
+.btn:focus, .btn:active {
+   outline: none !important;
+   box-shadow: none;
+   text-decoration: none;
+}
 /* typo */
 .bld_700 {
   margin: 0;
@@ -249,7 +254,7 @@ form button img {
   border-left: 2px solid #056aff;
 }
 .dply_list {
-  padding-left: 20px;
+  padding: 30px;
   text-align: left;
 }
 .dply_list li {
